@@ -10,9 +10,12 @@ export function Header() {
             <div id='headerContainer'>
                 <Logo></Logo>
 
-                <SecondaryButton text="Para el trabajo"></SecondaryButton>
-                <OutlinedSecondaryButton text="Acceder"></OutlinedSecondaryButton>
-                <PrimaryButton title="Crear una cuenta"></PrimaryButton>
+
+                <div id='headerButtonContainer'>
+                    <SecondaryButton text="Para el trabajo"></SecondaryButton>
+                    <OutlinedSecondaryButton text="Acceder"></OutlinedSecondaryButton>
+                    <PrimaryButton title="Crear una cuenta"></PrimaryButton>
+                </div>
             </div>
         </>)
 }

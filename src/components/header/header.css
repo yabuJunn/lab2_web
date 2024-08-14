@@ -1,5 +1,6 @@
 #headerContainer {
     width: 100%;
+    max-width: 1400px;
     height: 60px;
     background-color: white;
     box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .12), inset 0 -1px 0 0 #dadce0;
@@ -10,4 +11,15 @@
 
     display: flex;
     justify-content: center;
+    align-items: center;
+
+    padding: 0 72px 0 72px;
+
+    justify-content: space-between;
+}
+
+#headerButtonContainer {
+    display: flex;
+    column-gap: 16px;
+    margin-left: 30px;
 }
