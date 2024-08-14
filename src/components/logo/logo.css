@@ -1,0 +1,15 @@
+#logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+span {
+    font-size: 22px;
+}
