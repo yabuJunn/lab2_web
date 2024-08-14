@@ -1,0 +1,27 @@
+#buttonContainer {
+    width: 114px;
+    height: 49px;
+    background-color: white;
+    border: 1px solid #dadce0;
+    border-color: #dadce0;
+    color: #1a73e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color .2s, box-shadow .2s, color .2s;
+    border-radius: 4px;
+}
+
+#buttonContainer:hover {
+    background-color: #F6F7F8;
+    border: 1px solid #8AB4F8;
+    cursor: pointer;
+}
+
+#buttonContainer p {
+    font-family: "Google Sans", "Roboto", Arial, sans-serif;
+    color: #1a73e8;
+    font-weight: 500;
+    letter-spacing: .1px;
+    line-height: 24px;
+}
