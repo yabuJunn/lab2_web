@@ -5,7 +5,7 @@ export function SecondaryButton(props) {
     const { text } = props
     return <>
         <div id='secondaryButtonContainer'>
-            <p>{text}</p>
+            <p className='secondaryButton'>{text}</p>
         </div>
     </>
 }

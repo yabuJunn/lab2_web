@@ -6,7 +6,7 @@ export function PrimaryButton(props) {
     return (
         <>
             <div id='primaryButtonContainer'>
-                <p>{title}</p>
+                <p className='primaryButton'>{title}</p>
                 <div id='verticalBar'></div>
                 <img src="/src/assets/dropdown-svgrepo-com.svg" alt="" />
             </div>
