@@ -14,6 +14,10 @@ export function FirstSection() {
                     <SecondaryButton text="Para el trabajo"></SecondaryButton>
                 </div>
             </div>
+
+            <div id='sectionImage'>
+                <img src="https://lh3.googleusercontent.com/OPytN2BZpLrg-Jf6gRoDo_dJGGBLseMyBv0vo6PAEmzXeEud74RkobzNkzBFJA_uPdIzXocbqka4OaKPqWKyqycMrnHlhzOcICdYs0Gn=rw-e365-w2880" alt="" />
+            </div>
         </div>
     </>
 }

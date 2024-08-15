@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
 }
 
 #sectionText {
@@ -37,4 +38,13 @@
     display: flex;
     margin: 30px 0 0 0;
     gap: 16px;
+}
+
+#sectionImage {
+    margin: 0 0 0 70px;
+}
+
+#sectionImage img {
+    width: 860px;
+    height: 650px;
 }
